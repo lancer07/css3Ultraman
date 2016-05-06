@@ -50,6 +50,16 @@ body {
   top: 60px;
   left: 10px;
 }
+.ultraman header .left_eye span {
+  width: 10px;
+  height: 10px;
+  display: block;
+  background: #000;
+  position: absolute;
+  left: 50px;
+  top: 40px;
+  border-radius: 50%;
+}
 .ultraman header .right_eye {
   border: 5px solid #000;
   width: 70px;
@@ -59,6 +69,16 @@ body {
   position: absolute;
   top: 60px;
   right: 10px;
+}
+.ultraman header .right_eye span {
+  width: 10px;
+  height: 10px;
+  display: block;
+  background: #000;
+  position: absolute;
+  left: 10px;
+  top: 40px;
+  border-radius: 50%;
 }
 .ultraman header .left_ear {
   width: 20px;
