@@ -41,31 +41,23 @@ body{
 			border-top: 140px solid #000;
 			border-radius:30% 30% 50% 50%;
 		}
-		.eye(@l,@r,@eye){
+		.eye(@l,@r){
 			border:5px solid #000;
 			width:70px;
 			height:70px;
 			background:#ffc30a;
 			border-radius:@l @r;
 			position:absolute;
-			span{
-				width:10px;
-				height:10px;
-				display:block;
-				background:#000;
-				position:absolute;
-				left:@eye;
-				top:40px;
-				border-radius:50%;
-			}
 		}
 		.left_eye{
-			.eye(50%,60%,50px);
+			.eye(50%,80%);
+			transform:rotate(-15deg);
 			top:60px;
 			left:10px;
 		}
 		.right_eye{
-			.eye(60%,50%,10px);
+			.eye(80%,50%);
+			transform:rotate(15deg);
 			top:60px;
 			right:10px;
 		}
